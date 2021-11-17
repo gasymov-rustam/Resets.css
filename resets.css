@@ -157,18 +157,13 @@ img {
     height: auto;
 }
 
-#root {
+:root {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    --BG: #ceebcb;
 }
 
 body {
-    background: #207e9b;
+    background: var(--BG);
 }
-
-/* #root {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-} */
